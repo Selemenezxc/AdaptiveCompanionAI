@@ -1,0 +1,2 @@
+Adaptive companion for dynamic difficulty research in Terraria.
+Adds a co-op-style NPC companion with player-skill metrics, adaptive balance, inventory-based combat, duel testing and a clean control interface.

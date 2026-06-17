@@ -1,0 +1,53 @@
+Mods: {
+	AdaptiveCompanionAI: {
+		Items: {
+			CompanionBell: {
+				DisplayName: Companion Bell
+				Tooltip:
+					'''
+					Left click to spawn or recall the companion
+					Right click to open the companion window
+					'''
+			}
+		}
+
+		NPCs.AdaptiveCompanionNPC.DisplayName: Adaptive Companion
+		"Keybinds.Open Companion UI.DisplayName": Open  Companion  U I
+
+		Projectiles: {
+			AdaptiveBoltProjectile.DisplayName: Adaptive Bolt Projectile
+			CompanionWeaponProjectile.DisplayName: Companion Weapon Projectile
+		}
+
+		Configs: {
+			AdaptiveCompanionConfig: {
+				DisplayName: Adaptive Companion Config
+
+				AutoSpawnOnEnterWorld: {
+					Label: Auto Spawn On Enter World
+					Tooltip: ""
+				}
+
+				MinimumAutoCoefficient: {
+					Label: Minimum Auto Coefficient
+					Tooltip: ""
+				}
+
+				MaximumAutoCoefficient: {
+					Label: Maximum Auto Coefficient
+					Tooltip: ""
+				}
+
+				RespawnDelaySeconds: {
+					Label: Respawn Delay Seconds
+					Tooltip: ""
+				}
+
+				EngagementRadius: {
+					Label: Engagement Radius
+					Tooltip: ""
+				}
+			}
+		}
+	}
+}
